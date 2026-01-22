@@ -15,17 +15,22 @@
 }
 
 body {
-  background-color: #0f0524;
+  background-color: #1a0c30;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #412567;
 }
 
 /* --- HEADER --- */
 header {
   width: 100%;
   top: 0;
-  background: rgba(15, 5, 36, 0.9);
+  background: #1a0c30;
   backdrop-filter: blur(10px);
   z-index: 1000;
 }
@@ -66,12 +71,16 @@ header {
 }
 
 .btn-subscribe-top {
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
-  border: none;
-  padding: 10px 22px;
-  border-radius: 25px;
+  background: linear-gradient(135deg, #f9e327 0%, #ff009d 50%, #8c13f5 100%);
   color: white;
-  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
 }
 
@@ -107,22 +116,29 @@ header {
 }
 
 .btn-spotify {
-  background: #f7e93f;
-  border: none;
-  padding: 10px 22px;
-  border-radius: 25px;
+  background: linear-gradient(135deg, #f9e327 0%, #ff009d 50%, #8c13f5 100%);
   color: white;
-  font-weight: 600;
+  padding: 12px 19px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
 }
 
 .btn-subscribe {
+  background: #190e35;
   border: none;
+  font-size: 18px;
   padding: 10px 22px;
   border-radius: 25px;
-  color: green;
+  color: #00ff89;
   font-weight: 600;
   cursor: pointer;
+  border: 1px solid #00ff89;
 }
 
 .btn-spotify,
@@ -169,4 +185,39 @@ header {
 .hero-text h1 {
   font-size: 48px;
   margin-bottom: 25px;
+}
+
+/* About & Stats */
+.about {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  color: #b3b3b3;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.count-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #222;
+  padding-top: 40px;
+}
+
+.count-item h3 {
+  font-size: 38px;
+  color: #00ffaa;
+}
+.count-item p {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 1px;
 }
