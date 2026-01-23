@@ -221,3 +221,243 @@ header {
   color: #777;
   letter-spacing: 1px;
 }
+
+/* Features  */
+.features {
+  padding: 80px 8%;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: #1a0b35;
+  padding: 40px;
+  border-radius: 25px;
+  border: 1px solid #2a1b45;
+}
+
+.feature-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.icon-box {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Features  TechWave */
+.features {
+  padding: 80px 8%;
+  background-color: #230e3d;
+  color: white;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  grid-template-areas:
+    'premium mobile mobile'
+    'premium global global'
+    'interviews interviews resources';
+}
+
+.feature-card {
+  background: #1d103d;
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-box img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #b3b3b3;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Grid Areas */
+.premium {
+  grid-area: premium;
+}
+
+.mobile {
+  grid-area: mobile;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.global {
+  grid-area: global;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.interviews {
+  grid-area: interviews;
+}
+.resources {
+  grid-area: resources;
+}
+
+/* --- Featured Episodes css--- */
+.episodes {
+  padding: 100px 8%;
+  background-color: #1a0c30;
+  text-align: center;
+}
+.episodes h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.episode-card {
+  background: #1a0b35;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.ep-content {
+  padding: 25px;
+}
+
+.ep-content h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.ep-content p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+.ep-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #00ff88;
+  font-weight: 600;
+}
+
+/* --- Featured Episodes --- */
+.episodes {
+  padding: 100px 8%;
+  background-color: #1a0c30;
+  text-align: center;
+}
+.episodes h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.episode-card {
+  background: #1a0b35;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.ep-content {
+  padding: 25px;
+}
+
+.ep-content h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.ep-content p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+.ep-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #00ff88;
+  font-weight: 600;
+}
