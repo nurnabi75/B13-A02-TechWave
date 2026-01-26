@@ -461,3 +461,70 @@ header {
   color: #00ff88;
   font-weight: 600;
 }
+/* --- Meet The Host --- */
+.host {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.host h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.host-container {
+  display: flex;
+  justify-content: center;
+}
+
+.host-card {
+  background: #1a0b35;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 1200px;
+  height: 280px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.host-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-info h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.host-info p {
+  font-size: 16px;
+  color: #b3b3b3;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+  border: 3px solid #533c72;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
